@@ -1,0 +1,18 @@
+
+   
+<html>
+<head>
+    <title> File Processor Without Any Decors </title>
+<head>
+<body>
+    <p> Select a file:
+        <input type="file" id="fileselector">
+    <p> <button onclick="signedUrlUpload()">Upload via pre-signed URL</button>
+    <p> <button onclick="credentialsUpload()">Upload via restricted credentials for multi-part uploads</button>
+    
+    <!-- aws sdk-->
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.625.0.min.js"></script>
+    <script src="js/presign.js"></script>
+    <script src="js/credentials.js"></script>
+</body>
+</html>
